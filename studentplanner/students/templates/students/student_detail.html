@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% load bootstrap4 %}
+
+{% block content %}
+  <h1>{{ user.username }}</h1>
+  {% if user.student %}
+  <dl>
+    <dt>Wydział</dt>
+    <dd>{{ user.student.faculty }}</dd>
+    <dt>Kierunek</dt>
+    <dd>{{ user.student.field_of_study.human_str }}</dd>
+  </dl>
+  <a class="btn btn-primary" href="{% url 'students:student_edit' %}" role="button">Edytuj</a>
+  {% else %}
+  <a class="btn btn-primary" href="{% url 'students:student_edit' %}" role="button">Stwórz profil studenta</a>
+  {% endif %}
+
+{% endblock %}

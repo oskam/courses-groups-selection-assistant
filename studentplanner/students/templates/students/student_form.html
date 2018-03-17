@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% load bootstrap4 %}
+
+{% block stylesheet %}
+  <link rel="stylesheet" href="{% static 'students/css/student_form.css' %}">
+  {{ wizard.form.media }}
+{% endblock %}
+
+{% block content %}
+  <div>
+    <h1 class="page-headline">Wybierz swoją jednostkę</h1>
+    <p>Krok {{ wizard.steps.step1 }} z {{ wizard.steps.count }}</p>
+    <form method="POST">
+      {% csrf_token %}
+      <table>
+      {{ wizard.management_form }}
+      {% if wizard.form.forms %}
+        {{ wizard.form.management_form }}
+        {% for form in wizard.form.forms %}
+          {% bootstrap_form form %}
+        {% endfor %}
+      {% else %}
+        {% bootstrap_form wizard.form %}
+      {% endif %}
+      </table>
+      {% if wizard.steps.prev %}
+      {% buttons %}
+      <button name="wizard_goto_step" type="submit" class="btn btn-secondary" value="{{ wizard.steps.first }}">Początek</button>
+      <button name="wizard_goto_step" type="submit" class="btn btn-secondary" value="{{ wizard.steps.prev }}">Wstecz</button>
+      <button type="submit" class="btn btn-primary">
+      {% if wizard.steps.next %}
+        Dalej{% else %}Zatwierdź
+      {% endif %}</button>
+      {% endbuttons %}
+      {% else %}
+      {% buttons %}
+      <button type="submit" class="btn btn-primary">
+      {% if wizard.form.forms %}
+        Zatwierdź{% else %}Dalej
+      {% endif %}
+      </button>
+      {% endbuttons %}
+      {% endif %}
+    </form>
+  </div>
+{% endblock %}

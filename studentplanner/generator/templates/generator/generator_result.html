@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load bootstrap4 %}
+
+{% block content %}
+  <h1>Plan zajęć</h1>
+  {% if time_table %}
+  <div>
+    <form method="POST" class="form">
+      {% csrf_token %}
+      {% bootstrap_form form %}
+      {% buttons %}
+      <a class="btn btn-warning" href="{% url 'generator:form_view' %}" role="button">Spróbuj ponownie</a>
+      <button class="btn btn-primary">Zapisz</button>
+      {% endbuttons %}
+    </form>
+    {% include 'schedules/time_table.html' %}
+  </div>
+  {% endif %}
+{% endblock %}

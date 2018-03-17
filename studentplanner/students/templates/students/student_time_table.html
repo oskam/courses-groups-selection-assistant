@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load bootstrap4 %}
+
+{% block content %}
+  <h1>Twój plan</h1>
+  <p>{{ name }}</p>
+  {% if time_table %}
+    {% buttons %}
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#groupsCodes">
+      Lista kodów grup
+    </button>
+    {% endbuttons %}
+
+    <div>
+      {% include 'schedules/time_table.html' %}
+    </div>
+
+    <div class="modal fade" id="groupsCodes" tabindex="-1" role="dialog" aria-labelledby="groupsCodesTitle"
+         aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="groupsCodesTitle">Kody grup</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="list-group">
+              {% for group in time_table.groups.all %}
+                <div class="list-group-item justify-content-between">
+                  {{ group.code }}
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+{% endblock %}

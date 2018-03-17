@@ -1,0 +1,27 @@
+{% load staticfiles %}
+{% block stylesheet %}
+  <link rel="stylesheet" href="{% static 'schedules/css/time_table.css' %}">
+{% endblock %}
+
+<div class="timetable">
+  <ol class="timings">
+    {% for datetime, time_str in timings %}
+    <li><time>{{ time_str }}</time></li>
+    {% endfor %}
+  </ol>
+  <ol class="week">
+  {% for key, day in time_table.template_groups_dict.items %}
+    <li class="day">
+      <span class="name">{{ day.name|slice:":1"|upper }}</span>
+    {% for group in day.groups %}
+      <div class="hour hour_start__{{ group.template_start }} hour_width__{{ group.template_width }} hour_{{ group.week_type|lower }}">
+        <p>{{ group.code }}<span class="group_time">{{ group.times }}{% if group.week_type != 'PN' %}, {{ group.week_type }}{% endif %}</span></p>
+        <hr>
+        <p>{{ group.course.name }} {{ group.type }}</p>
+        <p>{{ group.lecturer }}</p>
+      </div>
+    {% endfor %}
+    </li>
+  {% endfor %}
+  </ol>
+</div>

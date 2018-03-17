@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% load bootstrap4 %}
+
+{% block stylesheet %}
+{% endblock %}
+
+{% block content %}
+  <h1>Zapisane plany zajęć</h1>
+  <div class="list-group">
+  {% for student_timetable in object_list %}
+    <div class="list-group-item list-group-item-action justify-content-between">
+      <a href="{% url 'students:timetable' student_timetable.id %}">
+        {{ student_timetable.time_table.date_created|date }} - {{ student_timetable.name }}
+      </a>
+      <a href="{% url 'students:timetable_delete' student_timetable.id %}"
+         role="button"
+         class="btn btn-danger btn-sm">
+        Usuń
+      </a>
+    </div>
+  {% empty %}
+      <a href="{% url 'generator:form_view' %}" class="list-group-item list-group-item-action list-group-item-info">
+        Brak zapisanych planów, kliknij aby przejść do generatora.
+      </a>
+  {% endfor %}
+  </div>
+{% endblock %}

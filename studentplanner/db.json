@@ -1,0 +1,2708 @@
+[
+{
+  "model": "schedules.faculty",
+  "pk": 1,
+  "fields": {
+    "name": "Wydzia\u0142 Architektury",
+    "code": "W1"
+  }
+},
+{
+  "model": "schedules.faculty",
+  "pk": 2,
+  "fields": {
+    "name": "Wydzia\u0142 Budownictwa L\u0105dowego i Wodnego",
+    "code": "W2"
+  }
+},
+{
+  "model": "schedules.faculty",
+  "pk": 3,
+  "fields": {
+    "name": "Wydzia\u0142 Chemiczny",
+    "code": "W3"
+  }
+},
+{
+  "model": "schedules.faculty",
+  "pk": 4,
+  "fields": {
+    "name": "Wydzia\u0142 Elektroniki",
+    "code": "W4"
+  }
+},
+{
+  "model": "schedules.faculty",
+  "pk": 5,
+  "fields": {
+    "name": "Wydzia\u0142 Elektryczny",
+    "code": "W5"
+  }
+},
+{
+  "model": "schedules.faculty",
+  "pk": 6,
+  "fields": {
+    "name": "Wydzia\u0142 Geoin\u017cynierii, G\u00f3rnictwa i Geologii",
+    "code": "W6"
+  }
+},
+{
+  "model": "schedules.faculty",
+  "pk": 7,
+  "fields": {
+    "name": "Wydzia\u0142 In\u017cynierii \u015arodowiska",
+    "code": "W7"
+  }
+},
+{
+  "model": "schedules.faculty",
+  "pk": 8,
+  "fields": {
+    "name": "Wydzia\u0142 Informatyki i Zarz\u0105dzania",
+    "code": "W8"
+  }
+},
+{
+  "model": "schedules.faculty",
+  "pk": 9,
+  "fields": {
+    "name": "Wydzia\u0142 Mechaniczno-Energetyczny",
+    "code": "W9"
+  }
+},
+{
+  "model": "schedules.faculty",
+  "pk": 10,
+  "fields": {
+    "name": "Wydzia\u0142 Mechaniczny",
+    "code": "W10"
+  }
+},
+{
+  "model": "schedules.faculty",
+  "pk": 11,
+  "fields": {
+    "name": "Wydzia\u0142 Podstawowych Problem\u00f3w Techniki",
+    "code": "W11"
+  }
+},
+{
+  "model": "schedules.faculty",
+  "pk": 12,
+  "fields": {
+    "name": "Wydzia\u0142 Elektroniki Mikrosystem\u00f3w i Fotoniki",
+    "code": "W12"
+  }
+},
+{
+  "model": "schedules.faculty",
+  "pk": 13,
+  "fields": {
+    "name": "Wydzia\u0142 Matematyki",
+    "code": "W13"
+  }
+},
+{
+  "model": "schedules.fieldofstudy",
+  "pk": 1,
+  "fields": {
+    "name": "Informatyka",
+    "faculty": 11,
+    "degree": "BSC"
+  }
+},
+{
+  "model": "schedules.fieldofstudy",
+  "pk": 2,
+  "fields": {
+    "name": "Fizyka Techniczna",
+    "faculty": 11,
+    "degree": "BSC"
+  }
+},
+{
+  "model": "schedules.fieldofstudy",
+  "pk": 3,
+  "fields": {
+    "name": "In\u017cynieria Biomedyczna",
+    "faculty": 11,
+    "degree": "BSC"
+  }
+},
+{
+  "model": "schedules.fieldofstudy",
+  "pk": 4,
+  "fields": {
+    "name": "Optyka",
+    "faculty": 11,
+    "degree": "BSC"
+  }
+},
+{
+  "model": "schedules.fieldofstudy",
+  "pk": 5,
+  "fields": {
+    "name": "In\u017cynieria Kwantowa",
+    "faculty": 11,
+    "degree": "BSC"
+  }
+},
+{
+  "model": "schedules.fieldofstudy",
+  "pk": 6,
+  "fields": {
+    "name": "Informatyka",
+    "faculty": 8,
+    "degree": "BSC"
+  }
+},
+{
+  "model": "schedules.fieldofstudy",
+  "pk": 7,
+  "fields": {
+    "name": "In\u017cynieria System\u00f3w",
+    "faculty": 8,
+    "degree": "BSC"
+  }
+},
+{
+  "model": "schedules.fieldofstudy",
+  "pk": 8,
+  "fields": {
+    "name": "In\u017cynieria Zarz\u0105dzania",
+    "faculty": 8,
+    "degree": "BSC"
+  }
+},
+{
+  "model": "schedules.fieldofstudy",
+  "pk": 9,
+  "fields": {
+    "name": "Zarz\u0105dzanie",
+    "faculty": 8,
+    "degree": "BCH"
+  }
+},
+{
+  "model": "schedules.course",
+  "pk": 3,
+  "fields": {
+    "name": "Technologia programowania",
+    "code": "INP002259",
+    "field_of_study": 1,
+    "semester": 3
+  }
+},
+{
+  "model": "schedules.course",
+  "pk": 4,
+  "fields": {
+    "name": "Bazy danych i systemy informacyjne",
+    "code": "INP002260",
+    "field_of_study": 1,
+    "semester": 3
+  }
+},
+{
+  "model": "schedules.course",
+  "pk": 5,
+  "fields": {
+    "name": "Architektura system\u00f3w i systemy operacyjne",
+    "code": "INP002261",
+    "field_of_study": 1,
+    "semester": 3
+  }
+},
+{
+  "model": "schedules.course",
+  "pk": 6,
+  "fields": {
+    "name": "Metody probabilistyczne i statystyka",
+    "code": "MAP002214",
+    "field_of_study": 1,
+    "semester": 3
+  }
+},
+{
+  "model": "schedules.course",
+  "pk": 7,
+  "fields": {
+    "name": "Kryptografia",
+    "code": "INP001910",
+    "field_of_study": 1,
+    "semester": 5
+  }
+},
+{
+  "model": "schedules.course",
+  "pk": 8,
+  "fields": {
+    "name": "Programowanie zespo\u0142owe",
+    "code": "INP002264",
+    "field_of_study": 1,
+    "semester": 5
+  }
+},
+{
+  "model": "schedules.course",
+  "pk": 9,
+  "fields": {
+    "name": "Obliczenia naukowe",
+    "code": "INP002265",
+    "field_of_study": 1,
+    "semester": 5
+  }
+},
+{
+  "model": "schedules.course",
+  "pk": 10,
+  "fields": {
+    "name": "J\u0119zyki formalne i teoria translacji",
+    "code": "INP002266",
+    "field_of_study": 1,
+    "semester": 5
+  }
+},
+{
+  "model": "schedules.course",
+  "pk": 11,
+  "fields": {
+    "name": "Wprowadzenie do topologii i teorii miary",
+    "code": "INP002274",
+    "field_of_study": 1,
+    "semester": 5
+  }
+},
+{
+  "model": "schedules.course",
+  "pk": 12,
+  "fields": {
+    "name": "Metody wytwarzania oprogramowania",
+    "code": "INP002296",
+    "field_of_study": 1,
+    "semester": 5
+  }
+},
+{
+  "model": "schedules.course",
+  "pk": 13,
+  "fields": {
+    "name": "Bezpiecze\u0144stwo komputerowe",
+    "code": "INP002300",
+    "field_of_study": 1,
+    "semester": 5
+  }
+},
+{
+  "model": "schedules.course",
+  "pk": 14,
+  "fields": {
+    "name": "Seminarium dyplomowe",
+    "code": "INP002269",
+    "field_of_study": 1,
+    "semester": 7
+  }
+},
+{
+  "model": "schedules.course",
+  "pk": 15,
+  "fields": {
+    "name": "Wst\u0119p do informatyki i programowania",
+    "code": "INP002257",
+    "field_of_study": 1,
+    "semester": 1
+  }
+},
+{
+  "model": "schedules.course",
+  "pk": 16,
+  "fields": {
+    "name": "Analiza matematyczna 1",
+    "code": "MAP002210",
+    "field_of_study": 1,
+    "semester": 1
+  }
+},
+{
+  "model": "schedules.course",
+  "pk": 17,
+  "fields": {
+    "name": "Algebra z geometri\u0105 analityczn\u0105",
+    "code": "MAP002211",
+    "field_of_study": 1,
+    "semester": 1
+  }
+},
+{
+  "model": "schedules.course",
+  "pk": 18,
+  "fields": {
+    "name": "Logika i struktury formalne",
+    "code": "MAP002215",
+    "field_of_study": 1,
+    "semester": 1
+  }
+},
+{
+  "model": "schedules.lecturer",
+  "pk": 1,
+  "fields": {
+    "title": 5,
+    "first_name": "Piotr",
+    "last_name": "Syga"
+  }
+},
+{
+  "model": "schedules.lecturer",
+  "pk": 2,
+  "fields": {
+    "title": 4,
+    "first_name": "Przemys\u0142aw",
+    "last_name": "Kobyla\u0144ski"
+  }
+},
+{
+  "model": "schedules.lecturer",
+  "pk": 3,
+  "fields": {
+    "title": 6,
+    "first_name": "Pawe\u0142",
+    "last_name": "Zieli\u0144ski"
+  }
+},
+{
+  "model": "schedules.lecturer",
+  "pk": 4,
+  "fields": {
+    "title": 3,
+    "first_name": "Marcin",
+    "last_name": "S\u0142owik"
+  }
+},
+{
+  "model": "schedules.lecturer",
+  "pk": 5,
+  "fields": {
+    "title": 4,
+    "first_name": "Marcin",
+    "last_name": "Kik"
+  }
+},
+{
+  "model": "schedules.lecturer",
+  "pk": 6,
+  "fields": {
+    "title": 5,
+    "first_name": "Marcin",
+    "last_name": "Zawada"
+  }
+},
+{
+  "model": "schedules.lecturer",
+  "pk": 7,
+  "fields": {
+    "title": 3,
+    "first_name": "Marta",
+    "last_name": "Wszo\u0142a"
+  }
+},
+{
+  "model": "schedules.lecturer",
+  "pk": 8,
+  "fields": {
+    "title": 5,
+    "first_name": "Przemys\u0142aw",
+    "last_name": "B\u0142a\u015bkiewicz"
+  }
+},
+{
+  "model": "schedules.lecturer",
+  "pk": 9,
+  "fields": {
+    "title": 2,
+    "first_name": "Dominik",
+    "last_name": "Bojko"
+  }
+},
+{
+  "model": "schedules.lecturer",
+  "pk": 10,
+  "fields": {
+    "title": 4,
+    "first_name": "Maciej",
+    "last_name": "G\u0119bala"
+  }
+},
+{
+  "model": "schedules.lecturer",
+  "pk": 11,
+  "fields": {
+    "title": 2,
+    "first_name": "Krzysztof",
+    "last_name": "Grining"
+  }
+},
+{
+  "model": "schedules.lecturer",
+  "pk": 12,
+  "fields": {
+    "title": 5,
+    "first_name": "Jakub",
+    "last_name": "Lemiesz"
+  }
+},
+{
+  "model": "schedules.lecturer",
+  "pk": 13,
+  "fields": {
+    "title": 5,
+    "first_name": "Ma\u0142gorzata",
+    "last_name": "Sulkowska"
+  }
+},
+{
+  "model": "schedules.lecturer",
+  "pk": 14,
+  "fields": {
+    "title": 3,
+    "first_name": "Patryk",
+    "last_name": "Kozie\u0142"
+  }
+},
+{
+  "model": "schedules.lecturer",
+  "pk": 15,
+  "fields": {
+    "title": 3,
+    "first_name": "Marcin",
+    "last_name": "Plata"
+  }
+},
+{
+  "model": "schedules.lecturer",
+  "pk": 16,
+  "fields": {
+    "title": 3,
+    "first_name": "Wojciech",
+    "last_name": "Wodo"
+  }
+},
+{
+  "model": "schedules.lecturer",
+  "pk": 17,
+  "fields": {
+    "title": 4,
+    "first_name": "Ma\u0142gorzata",
+    "last_name": "Kuchta"
+  }
+},
+{
+  "model": "schedules.lecturer",
+  "pk": 18,
+  "fields": {
+    "title": 4,
+    "first_name": "Filip",
+    "last_name": "Zag\u00f3rski"
+  }
+},
+{
+  "model": "schedules.lecturer",
+  "pk": 19,
+  "fields": {
+    "title": 5,
+    "first_name": "Zbigniew",
+    "last_name": "Go\u0142\u0119biewski"
+  }
+},
+{
+  "model": "schedules.lecturer",
+  "pk": 20,
+  "fields": {
+    "title": 5,
+    "first_name": "\u0141ukasz",
+    "last_name": "Krzywiecki"
+  }
+},
+{
+  "model": "schedules.lecturer",
+  "pk": 21,
+  "fields": {
+    "title": 3,
+    "first_name": "Mikita",
+    "last_name": "Hradovich"
+  }
+},
+{
+  "model": "schedules.lecturer",
+  "pk": 22,
+  "fields": {
+    "title": 3,
+    "first_name": "Karol",
+    "last_name": "Gotfryd"
+  }
+},
+{
+  "model": "schedules.lecturer",
+  "pk": 23,
+  "fields": {
+    "title": 8,
+    "first_name": "Micha\u0142",
+    "last_name": "Morayne"
+  }
+},
+{
+  "model": "schedules.lecturer",
+  "pk": 24,
+  "fields": {
+    "title": 5,
+    "first_name": "Wojciech",
+    "last_name": "Macyna"
+  }
+},
+{
+  "model": "schedules.lecturer",
+  "pk": 25,
+  "fields": {
+    "title": 4,
+    "first_name": "Przemys\u0142aw",
+    "last_name": "Kubiak"
+  }
+},
+{
+  "model": "schedules.lecturer",
+  "pk": 26,
+  "fields": {
+    "title": 8,
+    "first_name": "Miros\u0142aw",
+    "last_name": "Kuty\u0142owski"
+  }
+},
+{
+  "model": "schedules.lecturer",
+  "pk": 27,
+  "fields": {
+    "title": 8,
+    "first_name": "Jacek",
+    "last_name": "Cicho\u0144"
+  }
+},
+{
+  "model": "schedules.lecturer",
+  "pk": 28,
+  "fields": {
+    "title": 7,
+    "first_name": "Marek",
+    "last_name": "Klonowski"
+  }
+},
+{
+  "model": "schedules.lecturer",
+  "pk": 29,
+  "fields": {
+    "title": 3,
+    "first_name": "Ilya",
+    "last_name": "Hradovich"
+  }
+},
+{
+  "model": "schedules.lecturer",
+  "pk": 30,
+  "fields": {
+    "title": 4,
+    "first_name": "Rafa\u0142",
+    "last_name": "Kapelko"
+  }
+},
+{
+  "model": "schedules.lecturer",
+  "pk": 31,
+  "fields": {
+    "title": 8,
+    "first_name": "Pawe\u0142",
+    "last_name": "Krupski"
+  }
+},
+{
+  "model": "schedules.lecturer",
+  "pk": 32,
+  "fields": {
+    "title": 4,
+    "first_name": "Krzysztof",
+    "last_name": "Majcher"
+  }
+},
+{
+  "model": "schedules.lecturer",
+  "pk": 33,
+  "fields": {
+    "title": 6,
+    "first_name": "Szymon",
+    "last_name": "\u017beberski"
+  }
+},
+{
+  "model": "schedules.lecturer",
+  "pk": 34,
+  "fields": {
+    "title": 2,
+    "first_name": "Marcin",
+    "last_name": "Michalski"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 3,
+  "fields": {
+    "course": 3,
+    "code": "P00-87e",
+    "type": "C",
+    "lecturer": 12,
+    "start_time": "15:15:00",
+    "end_time": "16:55:00",
+    "day": 1,
+    "week_type": "P",
+    "place": "bud. C-7, sala 303"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 4,
+  "fields": {
+    "course": 3,
+    "code": "P00-87a",
+    "type": "C",
+    "lecturer": 12,
+    "start_time": "09:15:00",
+    "end_time": "11:00:00",
+    "day": 3,
+    "week_type": "N",
+    "place": "bud. C-7, sala 303"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 5,
+  "fields": {
+    "course": 3,
+    "code": "P00-87c",
+    "type": "C",
+    "lecturer": 12,
+    "start_time": "11:15:00",
+    "end_time": "13:00:00",
+    "day": 3,
+    "week_type": "N",
+    "place": "bud. C-7, sala 303"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 6,
+  "fields": {
+    "course": 3,
+    "code": "P00-87b",
+    "type": "C",
+    "lecturer": 12,
+    "start_time": "09:15:00",
+    "end_time": "11:00:00",
+    "day": 3,
+    "week_type": "P",
+    "place": "bud. C-7, sala 303"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 7,
+  "fields": {
+    "course": 3,
+    "code": "P00-87d",
+    "type": "C",
+    "lecturer": 12,
+    "start_time": "11:15:00",
+    "end_time": "13:00:00",
+    "day": 3,
+    "week_type": "P",
+    "place": "bud. C-7, sala 303"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 8,
+  "fields": {
+    "course": 3,
+    "code": "P00-88a",
+    "type": "L",
+    "lecturer": 13,
+    "start_time": "09:15:00",
+    "end_time": "11:00:00",
+    "day": 0,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 317.3"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 9,
+  "fields": {
+    "course": 3,
+    "code": "P00-88b",
+    "type": "L",
+    "lecturer": 13,
+    "start_time": "11:15:00",
+    "end_time": "13:00:00",
+    "day": 0,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 317.3"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 10,
+  "fields": {
+    "course": 3,
+    "code": "P00-88c",
+    "type": "L",
+    "lecturer": 12,
+    "start_time": "13:15:00",
+    "end_time": "15:00:00",
+    "day": 1,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 317.3"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 11,
+  "fields": {
+    "course": 3,
+    "code": "P00-88d",
+    "type": "L",
+    "lecturer": 13,
+    "start_time": "09:15:00",
+    "end_time": "11:00:00",
+    "day": 2,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 3"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 12,
+  "fields": {
+    "course": 3,
+    "code": "P00-88e",
+    "type": "L",
+    "lecturer": 13,
+    "start_time": "11:15:00",
+    "end_time": "13:00:00",
+    "day": 2,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 317.3"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 13,
+  "fields": {
+    "course": 3,
+    "code": "P00-88f",
+    "type": "L",
+    "lecturer": 13,
+    "start_time": "13:15:00",
+    "end_time": "15:00:00",
+    "day": 2,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 317.3"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 14,
+  "fields": {
+    "course": 3,
+    "code": "P00-88g",
+    "type": "L",
+    "lecturer": 14,
+    "start_time": "15:15:00",
+    "end_time": "16:55:00",
+    "day": 2,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 317.3"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 15,
+  "fields": {
+    "course": 3,
+    "code": "P00-88h",
+    "type": "L",
+    "lecturer": 14,
+    "start_time": "17:05:00",
+    "end_time": "18:45:00",
+    "day": 2,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 317.3"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 16,
+  "fields": {
+    "course": 3,
+    "code": "P00-88i",
+    "type": "L",
+    "lecturer": 15,
+    "start_time": "09:15:00",
+    "end_time": "11:00:00",
+    "day": 4,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 317.3"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 17,
+  "fields": {
+    "course": 3,
+    "code": "P00-88j",
+    "type": "L",
+    "lecturer": 15,
+    "start_time": "11:15:00",
+    "end_time": "13:00:00",
+    "day": 4,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 317.3"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 18,
+  "fields": {
+    "course": 3,
+    "code": "P00-89a",
+    "type": "W",
+    "lecturer": 12,
+    "start_time": "17:05:00",
+    "end_time": "18:45:00",
+    "day": 1,
+    "week_type": "PN",
+    "place": "bud. A-1, sala 322"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 19,
+  "fields": {
+    "course": 4,
+    "code": "P00-79a",
+    "type": "C",
+    "lecturer": 1,
+    "start_time": "15:15:00",
+    "end_time": "16:55:00",
+    "day": 0,
+    "week_type": "N",
+    "place": "bud. C-7, sala 303"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 20,
+  "fields": {
+    "course": 4,
+    "code": "P00-79b",
+    "type": "C",
+    "lecturer": 1,
+    "start_time": "15:15:00",
+    "end_time": "16:55:00",
+    "day": 0,
+    "week_type": "P",
+    "place": "bud. C-7, sala 303"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 21,
+  "fields": {
+    "course": 4,
+    "code": "P00-79c",
+    "type": "C",
+    "lecturer": 1,
+    "start_time": "09:15:00",
+    "end_time": "11:00:00",
+    "day": 1,
+    "week_type": "N",
+    "place": "bud. C-7, sala 303"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 22,
+  "fields": {
+    "course": 4,
+    "code": "P00-79e",
+    "type": "C",
+    "lecturer": 1,
+    "start_time": "15:15:00",
+    "end_time": "16:55:00",
+    "day": 1,
+    "week_type": "N",
+    "place": "bud. C-7, sala 303"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 23,
+  "fields": {
+    "course": 4,
+    "code": "P00-79d",
+    "type": "C",
+    "lecturer": 1,
+    "start_time": "09:15:00",
+    "end_time": "11:00:00",
+    "day": 1,
+    "week_type": "P",
+    "place": "bud. C-7, sala 303"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 24,
+  "fields": {
+    "course": 4,
+    "code": "P00-80a",
+    "type": "L",
+    "lecturer": 16,
+    "start_time": "13:15:00",
+    "end_time": "15:00:00",
+    "day": 0,
+    "week_type": "N",
+    "place": "bud. D-1, sala 317.3"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 25,
+  "fields": {
+    "course": 4,
+    "code": "P00-80c",
+    "type": "L",
+    "lecturer": 1,
+    "start_time": "18:55:00",
+    "end_time": "20:35:00",
+    "day": 0,
+    "week_type": "N",
+    "place": "bud. D-1, sala 317.3"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 26,
+  "fields": {
+    "course": 4,
+    "code": "P00-80b",
+    "type": "L",
+    "lecturer": 16,
+    "start_time": "13:15:00",
+    "end_time": "15:00:00",
+    "day": 0,
+    "week_type": "P",
+    "place": "bud. D-1, sala 317.3"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 27,
+  "fields": {
+    "course": 4,
+    "code": "P00-80d",
+    "type": "L",
+    "lecturer": 1,
+    "start_time": "18:55:00",
+    "end_time": "20:35:00",
+    "day": 0,
+    "week_type": "P",
+    "place": "bud. D-1, sala 317.3"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 28,
+  "fields": {
+    "course": 4,
+    "code": "P00-80e",
+    "type": "L",
+    "lecturer": 1,
+    "start_time": "07:30:00",
+    "end_time": "09:00:00",
+    "day": 1,
+    "week_type": "N",
+    "place": "bud. D-1, sala 317.3"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 29,
+  "fields": {
+    "course": 4,
+    "code": "P00-80g",
+    "type": "L",
+    "lecturer": 16,
+    "start_time": "18:55:00",
+    "end_time": "20:35:00",
+    "day": 1,
+    "week_type": "N",
+    "place": "bud. D-1, sala 317.3"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 30,
+  "fields": {
+    "course": 4,
+    "code": "P00-80f",
+    "type": "L",
+    "lecturer": 1,
+    "start_time": "07:30:00",
+    "end_time": "09:00:00",
+    "day": 1,
+    "week_type": "P",
+    "place": "bud. D-1, sala 317.3"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 31,
+  "fields": {
+    "course": 4,
+    "code": "P00-80h",
+    "type": "L",
+    "lecturer": 16,
+    "start_time": "18:55:00",
+    "end_time": "20:35:00",
+    "day": 1,
+    "week_type": "P",
+    "place": "bud. D-1, sala 317.3"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 32,
+  "fields": {
+    "course": 4,
+    "code": "P00-80i",
+    "type": "L",
+    "lecturer": 16,
+    "start_time": "15:15:00",
+    "end_time": "16:55:00",
+    "day": 4,
+    "week_type": "N",
+    "place": "bud. D-1, sala 317.3"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 33,
+  "fields": {
+    "course": 4,
+    "code": "P00-80j",
+    "type": "L",
+    "lecturer": 16,
+    "start_time": "15:15:00",
+    "end_time": "16:55:00",
+    "day": 4,
+    "week_type": "P",
+    "place": "bud. D-1, sala 317.3"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 34,
+  "fields": {
+    "course": 4,
+    "code": "P00-81a",
+    "type": "W",
+    "lecturer": 1,
+    "start_time": "17:05:00",
+    "end_time": "18:45:00",
+    "day": 0,
+    "week_type": "PN",
+    "place": "bud. A-1, sala 322"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 35,
+  "fields": {
+    "course": 5,
+    "code": "P00-82a",
+    "type": "C",
+    "lecturer": 5,
+    "start_time": "07:30:00",
+    "end_time": "09:00:00",
+    "day": 0,
+    "week_type": "PN",
+    "place": "bud. C-7, sala 303A"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 36,
+  "fields": {
+    "course": 5,
+    "code": "P00-82b",
+    "type": "C",
+    "lecturer": 5,
+    "start_time": "11:15:00",
+    "end_time": "13:00:00",
+    "day": 1,
+    "week_type": "PN",
+    "place": "bud. C-7, sala 303A"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 37,
+  "fields": {
+    "course": 5,
+    "code": "P00-82c",
+    "type": "C",
+    "lecturer": 5,
+    "start_time": "07:30:00",
+    "end_time": "09:00:00",
+    "day": 3,
+    "week_type": "PN",
+    "place": "bud. C-7, sala 303A"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 38,
+  "fields": {
+    "course": 5,
+    "code": "P00-82d",
+    "type": "C",
+    "lecturer": 5,
+    "start_time": "17:05:00",
+    "end_time": "18:45:00",
+    "day": 3,
+    "week_type": "PN",
+    "place": "bud. C-7, sala 303A"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 39,
+  "fields": {
+    "course": 5,
+    "code": "P00-82e",
+    "type": "C",
+    "lecturer": 5,
+    "start_time": "07:30:00",
+    "end_time": "09:00:00",
+    "day": 4,
+    "week_type": "PN",
+    "place": "bud. C-7, sala 303A"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 40,
+  "fields": {
+    "course": 5,
+    "code": "P00-83a",
+    "type": "L",
+    "lecturer": 6,
+    "start_time": "09:15:00",
+    "end_time": "11:00:00",
+    "day": 0,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 317.2"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 41,
+  "fields": {
+    "course": 5,
+    "code": "P00-83b",
+    "type": "L",
+    "lecturer": 6,
+    "start_time": "11:15:00",
+    "end_time": "13:00:00",
+    "day": 0,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 317.2"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 42,
+  "fields": {
+    "course": 5,
+    "code": "P00-83c",
+    "type": "L",
+    "lecturer": 8,
+    "start_time": "13:15:00",
+    "end_time": "15:00:00",
+    "day": 1,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 317.2"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 43,
+  "fields": {
+    "course": 5,
+    "code": "P00-83d",
+    "type": "L",
+    "lecturer": 4,
+    "start_time": "09:15:00",
+    "end_time": "11:00:00",
+    "day": 2,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 317.2"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 44,
+  "fields": {
+    "course": 5,
+    "code": "P00-83e",
+    "type": "L",
+    "lecturer": 4,
+    "start_time": "11:15:00",
+    "end_time": "13:00:00",
+    "day": 2,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 317.2"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 45,
+  "fields": {
+    "course": 5,
+    "code": "P00-83f",
+    "type": "L",
+    "lecturer": 8,
+    "start_time": "13:15:00",
+    "end_time": "15:00:00",
+    "day": 2,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 317.2"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 46,
+  "fields": {
+    "course": 5,
+    "code": "P00-83g",
+    "type": "L",
+    "lecturer": 8,
+    "start_time": "15:15:00",
+    "end_time": "16:55:00",
+    "day": 2,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 317.2"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 47,
+  "fields": {
+    "course": 5,
+    "code": "P00-83h",
+    "type": "L",
+    "lecturer": 7,
+    "start_time": "17:05:00",
+    "end_time": "18:45:00",
+    "day": 2,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 317.2"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 48,
+  "fields": {
+    "course": 5,
+    "code": "P00-83i",
+    "type": "L",
+    "lecturer": 6,
+    "start_time": "09:15:00",
+    "end_time": "11:00:00",
+    "day": 4,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 317.2"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 49,
+  "fields": {
+    "course": 5,
+    "code": "P00-83j",
+    "type": "L",
+    "lecturer": 7,
+    "start_time": "11:15:00",
+    "end_time": "13:00:00",
+    "day": 4,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 317.2"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 50,
+  "fields": {
+    "course": 5,
+    "code": "P00-84a",
+    "type": "W",
+    "lecturer": 6,
+    "start_time": "13:15:00",
+    "end_time": "15:00:00",
+    "day": 3,
+    "week_type": "PN",
+    "place": "bud. C-13, sala 1.28"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 51,
+  "fields": {
+    "course": 6,
+    "code": "P00-85a",
+    "type": "C",
+    "lecturer": 17,
+    "start_time": "07:30:00",
+    "end_time": "09:00:00",
+    "day": 0,
+    "week_type": "PN",
+    "place": "bud. C-7, sala 303"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 52,
+  "fields": {
+    "course": 6,
+    "code": "P00-85b",
+    "type": "C",
+    "lecturer": 17,
+    "start_time": "11:15:00",
+    "end_time": "13:00:00",
+    "day": 1,
+    "week_type": "PN",
+    "place": "bud. C-7, sala 303"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 53,
+  "fields": {
+    "course": 6,
+    "code": "P00-85c",
+    "type": "C",
+    "lecturer": 17,
+    "start_time": "07:30:00",
+    "end_time": "09:00:00",
+    "day": 3,
+    "week_type": "PN",
+    "place": "bud. C-7, sala 303"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 54,
+  "fields": {
+    "course": 6,
+    "code": "P00-85d",
+    "type": "C",
+    "lecturer": 17,
+    "start_time": "07:30:00",
+    "end_time": "09:00:00",
+    "day": 3,
+    "week_type": "PN",
+    "place": "bud. C-7, sala 303"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 55,
+  "fields": {
+    "course": 6,
+    "code": "P00-85e",
+    "type": "C",
+    "lecturer": 17,
+    "start_time": "07:30:00",
+    "end_time": "09:00:00",
+    "day": 4,
+    "week_type": "PN",
+    "place": "bud. C-7, sala 303"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 56,
+  "fields": {
+    "course": 6,
+    "code": "P00-86a",
+    "type": "W",
+    "lecturer": 17,
+    "start_time": "15:15:00",
+    "end_time": "16:55:00",
+    "day": 3,
+    "week_type": "PN",
+    "place": "bud. C-13, sala 1.28"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 57,
+  "fields": {
+    "course": 5,
+    "code": "P00-84a",
+    "type": "W",
+    "lecturer": 6,
+    "start_time": "13:15:00",
+    "end_time": "15:00:00",
+    "day": 4,
+    "week_type": "PN",
+    "place": "bud. C-13, sala 1.28"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 58,
+  "fields": {
+    "course": 7,
+    "code": "P02-04a",
+    "type": "C",
+    "lecturer": 18,
+    "start_time": "07:30:00",
+    "end_time": "09:00:00",
+    "day": 3,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 312B"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 59,
+  "fields": {
+    "course": 7,
+    "code": "P02-04b",
+    "type": "C",
+    "lecturer": 18,
+    "start_time": "09:15:00",
+    "end_time": "11:00:00",
+    "day": 3,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 312B"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 60,
+  "fields": {
+    "course": 7,
+    "code": "P02-05a",
+    "type": "W",
+    "lecturer": 18,
+    "start_time": "14:15:00",
+    "end_time": "16:00:00",
+    "day": 0,
+    "week_type": "PN",
+    "place": "bud. A-1, sala 314"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 61,
+  "fields": {
+    "course": 8,
+    "code": "P01-88a",
+    "type": "L",
+    "lecturer": 18,
+    "start_time": "07:30:00",
+    "end_time": "09:00:00",
+    "day": 0,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 317.2"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 62,
+  "fields": {
+    "course": 8,
+    "code": "P01-88b",
+    "type": "L",
+    "lecturer": 6,
+    "start_time": "07:30:00",
+    "end_time": "09:00:00",
+    "day": 0,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 317.3"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 63,
+  "fields": {
+    "course": 8,
+    "code": "P01-88c",
+    "type": "L",
+    "lecturer": 19,
+    "start_time": "07:30:00",
+    "end_time": "09:00:00",
+    "day": 1,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 317.2"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 64,
+  "fields": {
+    "course": 8,
+    "code": "P01-88d",
+    "type": "L",
+    "lecturer": 10,
+    "start_time": "17:05:00",
+    "end_time": "18:45:00",
+    "day": 1,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 317.2"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 65,
+  "fields": {
+    "course": 8,
+    "code": "P01-88e",
+    "type": "L",
+    "lecturer": 20,
+    "start_time": "18:55:00",
+    "end_time": "20:35:00",
+    "day": 1,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 317.2"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 66,
+  "fields": {
+    "course": 8,
+    "code": "P01-88f",
+    "type": "L",
+    "lecturer": 10,
+    "start_time": "17:05:00",
+    "end_time": "18:45:00",
+    "day": 3,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 317.3"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 67,
+  "fields": {
+    "course": 9,
+    "code": "P01-89a",
+    "type": "C",
+    "lecturer": 3,
+    "start_time": "15:15:00",
+    "end_time": "16:55:00",
+    "day": 2,
+    "week_type": "N",
+    "place": "bud. C-7, sala 303A"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 68,
+  "fields": {
+    "course": 9,
+    "code": "P01-89c",
+    "type": "C",
+    "lecturer": 3,
+    "start_time": "17:05:00",
+    "end_time": "18:45:00",
+    "day": 2,
+    "week_type": "N",
+    "place": "bud. C-7, sala 303A"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 69,
+  "fields": {
+    "course": 9,
+    "code": "P01-89b",
+    "type": "C",
+    "lecturer": 3,
+    "start_time": "15:15:00",
+    "end_time": "16:55:00",
+    "day": 2,
+    "week_type": "P",
+    "place": "bud. C-7, sala 303A"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 70,
+  "fields": {
+    "course": 9,
+    "code": "P01-89d",
+    "type": "C",
+    "lecturer": 3,
+    "start_time": "17:05:00",
+    "end_time": "18:45:00",
+    "day": 2,
+    "week_type": "P",
+    "place": "bud. C-7, sala 303A"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 71,
+  "fields": {
+    "course": 9,
+    "code": "P01-90a",
+    "type": "L",
+    "lecturer": 3,
+    "start_time": "09:15:00",
+    "end_time": "11:00:00",
+    "day": 1,
+    "week_type": "N",
+    "place": "bud. D-1, sala 317.2"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 72,
+  "fields": {
+    "course": 9,
+    "code": "P01-90c",
+    "type": "L",
+    "lecturer": 21,
+    "start_time": "11:15:00",
+    "end_time": "13:00:00",
+    "day": 1,
+    "week_type": "N",
+    "place": "bud. D-1, sala 317.2"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 73,
+  "fields": {
+    "course": 9,
+    "code": "P01-90g",
+    "type": "L",
+    "lecturer": 3,
+    "start_time": "15:15:00",
+    "end_time": "16:55:00",
+    "day": 1,
+    "week_type": "N",
+    "place": "bud. D-1, sala 317.2"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 74,
+  "fields": {
+    "course": 9,
+    "code": "P01-90b",
+    "type": "L",
+    "lecturer": 3,
+    "start_time": "09:15:00",
+    "end_time": "11:00:00",
+    "day": 1,
+    "week_type": "P",
+    "place": "bud. D-1, sala 317.2"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 75,
+  "fields": {
+    "course": 9,
+    "code": "P01-90d",
+    "type": "L",
+    "lecturer": 21,
+    "start_time": "11:15:00",
+    "end_time": "13:00:00",
+    "day": 1,
+    "week_type": "P",
+    "place": "bud. D-1, sala 317.2"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 76,
+  "fields": {
+    "course": 9,
+    "code": "P01-90e",
+    "type": "L",
+    "lecturer": 3,
+    "start_time": "11:15:00",
+    "end_time": "13:00:00",
+    "day": 3,
+    "week_type": "N",
+    "place": "bud. D-1, sala 317.2"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 77,
+  "fields": {
+    "course": 9,
+    "code": "P01-90f",
+    "type": "L",
+    "lecturer": 3,
+    "start_time": "11:15:00",
+    "end_time": "13:00:00",
+    "day": 3,
+    "week_type": "P",
+    "place": "bud. D-1, sala 317.2"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 78,
+  "fields": {
+    "course": 9,
+    "code": "P01-91a",
+    "type": "W",
+    "lecturer": 3,
+    "start_time": "07:30:00",
+    "end_time": "09:00:00",
+    "day": 2,
+    "week_type": "PN",
+    "place": "bud. C-13, sala 1.27"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 79,
+  "fields": {
+    "course": 10,
+    "code": "P01-92a",
+    "type": "C",
+    "lecturer": 22,
+    "start_time": "15:15:00",
+    "end_time": "16:55:00",
+    "day": 2,
+    "week_type": "N",
+    "place": "bud. D-1, sala 312B"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 80,
+  "fields": {
+    "course": 10,
+    "code": "P01-92c",
+    "type": "C",
+    "lecturer": 22,
+    "start_time": "17:05:00",
+    "end_time": "18:45:00",
+    "day": 2,
+    "week_type": "N",
+    "place": "bud. D-1, sala 312B"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 81,
+  "fields": {
+    "course": 10,
+    "code": "P01-92b",
+    "type": "C",
+    "lecturer": 22,
+    "start_time": "15:15:00",
+    "end_time": "16:55:00",
+    "day": 2,
+    "week_type": "P",
+    "place": "bud. D-1, sala 312B"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 82,
+  "fields": {
+    "course": 10,
+    "code": "P01-92d",
+    "type": "C",
+    "lecturer": 22,
+    "start_time": "17:05:00",
+    "end_time": "18:45:00",
+    "day": 2,
+    "week_type": "P",
+    "place": "bud. D-1, sala 312B"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 83,
+  "fields": {
+    "course": 10,
+    "code": "P01-93a",
+    "type": "L",
+    "lecturer": 10,
+    "start_time": "09:15:00",
+    "end_time": "11:00:00",
+    "day": 1,
+    "week_type": "N",
+    "place": "bud. D-1, sala 317.3"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 84,
+  "fields": {
+    "course": 10,
+    "code": "P01-93c",
+    "type": "L",
+    "lecturer": 10,
+    "start_time": "11:15:00",
+    "end_time": "13:00:00",
+    "day": 1,
+    "week_type": "N",
+    "place": "bud. D-1, sala 317.3"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 85,
+  "fields": {
+    "course": 10,
+    "code": "P01-93b",
+    "type": "L",
+    "lecturer": 10,
+    "start_time": "09:15:00",
+    "end_time": "11:00:00",
+    "day": 1,
+    "week_type": "P",
+    "place": "bud. D-1, sala 317.3"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 86,
+  "fields": {
+    "course": 10,
+    "code": "P01-93d",
+    "type": "L",
+    "lecturer": 10,
+    "start_time": "11:15:00",
+    "end_time": "13:00:00",
+    "day": 1,
+    "week_type": "P",
+    "place": "bud. D-1, sala 317.3"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 87,
+  "fields": {
+    "course": 10,
+    "code": "P01-93g",
+    "type": "L",
+    "lecturer": 10,
+    "start_time": "15:15:00",
+    "end_time": "16:55:00",
+    "day": 1,
+    "week_type": "P",
+    "place": "bud. D-1, sala 317.2"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 88,
+  "fields": {
+    "course": 10,
+    "code": "P01-93e",
+    "type": "L",
+    "lecturer": 10,
+    "start_time": "11:15:00",
+    "end_time": "13:00:00",
+    "day": 3,
+    "week_type": "N",
+    "place": "bud. D-1, sala 317.3"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 89,
+  "fields": {
+    "course": 10,
+    "code": "P01-93f",
+    "type": "L",
+    "lecturer": 10,
+    "start_time": "11:15:00",
+    "end_time": "13:00:00",
+    "day": 3,
+    "week_type": "P",
+    "place": "bud. D-1, sala 317.3"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 90,
+  "fields": {
+    "course": 10,
+    "code": "P01-93h",
+    "type": "L",
+    "lecturer": 22,
+    "start_time": "17:05:00",
+    "end_time": "18:45:00",
+    "day": 4,
+    "week_type": "N",
+    "place": "bud. D-1, sala 317.3"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 91,
+  "fields": {
+    "course": 10,
+    "code": "P01-93i",
+    "type": "L",
+    "lecturer": 22,
+    "start_time": "17:05:00",
+    "end_time": "18:45:00",
+    "day": 4,
+    "week_type": "P",
+    "place": "bud. D-1, sala 317.3"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 92,
+  "fields": {
+    "course": 10,
+    "code": "P01-94a",
+    "type": "W",
+    "lecturer": 10,
+    "start_time": "09:15:00",
+    "end_time": "11:00:00",
+    "day": 2,
+    "week_type": "PN",
+    "place": "bud. C-13, sala 1.27"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 93,
+  "fields": {
+    "course": 11,
+    "code": "P01-97a",
+    "type": "C",
+    "lecturer": 23,
+    "start_time": "17:05:00",
+    "end_time": "18:45:00",
+    "day": 0,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 312B"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 94,
+  "fields": {
+    "course": 11,
+    "code": "P01-97b",
+    "type": "C",
+    "lecturer": 23,
+    "start_time": "18:55:00",
+    "end_time": "20:35:00",
+    "day": 0,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 312B"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 95,
+  "fields": {
+    "course": 11,
+    "code": "P01-97c",
+    "type": "C",
+    "lecturer": 23,
+    "start_time": "18:55:00",
+    "end_time": "20:35:00",
+    "day": 2,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 312B"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 96,
+  "fields": {
+    "course": 11,
+    "code": "P01-98a",
+    "type": "W",
+    "lecturer": 23,
+    "start_time": "15:15:00",
+    "end_time": "16:55:00",
+    "day": 3,
+    "week_type": "PN",
+    "place": "bud. C-13, sala 1.30"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 97,
+  "fields": {
+    "course": 12,
+    "code": "P02-00e",
+    "type": "L",
+    "lecturer": 24,
+    "start_time": "17:05:00",
+    "end_time": "18:45:00",
+    "day": 0,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 317.2"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 98,
+  "fields": {
+    "course": 12,
+    "code": "P02-00f",
+    "type": "L",
+    "lecturer": 24,
+    "start_time": "18:55:00",
+    "end_time": "20:35:00",
+    "day": 0,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 317.2"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 99,
+  "fields": {
+    "course": 12,
+    "code": "P02-00g",
+    "type": "L",
+    "lecturer": 9,
+    "start_time": "07:30:00",
+    "end_time": "09:00:00",
+    "day": 4,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 317.3"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 100,
+  "fields": {
+    "course": 12,
+    "code": "P02-00h",
+    "type": "L",
+    "lecturer": 5,
+    "start_time": "13:15:00",
+    "end_time": "15:00:00",
+    "day": 4,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 317.3"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 101,
+  "fields": {
+    "course": 12,
+    "code": "P02-01a",
+    "type": "W",
+    "lecturer": 24,
+    "start_time": "11:15:00",
+    "end_time": "14:00:00",
+    "day": 0,
+    "week_type": "PN",
+    "place": "bud. A-1, sala 314"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 102,
+  "fields": {
+    "course": 13,
+    "code": "P02-02d",
+    "type": "L",
+    "lecturer": 25,
+    "start_time": "18:55:00",
+    "end_time": "20:35:00",
+    "day": 2,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 317.2"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 103,
+  "fields": {
+    "course": 13,
+    "code": "P02-02a",
+    "type": "L",
+    "lecturer": 25,
+    "start_time": "07:30:00",
+    "end_time": "09:00:00",
+    "day": 3,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 317.2"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 104,
+  "fields": {
+    "course": 13,
+    "code": "P02-02b",
+    "type": "L",
+    "lecturer": 25,
+    "start_time": "09:15:00",
+    "end_time": "11:00:00",
+    "day": 3,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 317.2"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 105,
+  "fields": {
+    "course": 13,
+    "code": "P02-02c",
+    "type": "L",
+    "lecturer": 25,
+    "start_time": "07:30:00",
+    "end_time": "09:00:00",
+    "day": 4,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 317.2"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 106,
+  "fields": {
+    "course": 13,
+    "code": "P02-03a",
+    "type": "W",
+    "lecturer": 18,
+    "start_time": "13:15:00",
+    "end_time": "15:00:00",
+    "day": 3,
+    "week_type": "PN",
+    "place": "bud. C-13, sala 1.30"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 107,
+  "fields": {
+    "course": 14,
+    "code": "P01-96a",
+    "type": "S",
+    "lecturer": 26,
+    "start_time": "15:15:00",
+    "end_time": "17:50:00",
+    "day": 0,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 215"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 108,
+  "fields": {
+    "course": 14,
+    "code": "P01-96b",
+    "type": "S",
+    "lecturer": 28,
+    "start_time": "18:00:00",
+    "end_time": "20:35:00",
+    "day": 0,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 215"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 109,
+  "fields": {
+    "course": 14,
+    "code": "P01-96d",
+    "type": "S",
+    "lecturer": 27,
+    "start_time": "10:15:00",
+    "end_time": "13:00:00",
+    "day": 4,
+    "week_type": "PN",
+    "place": "bud. D-1, sala 215"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 110,
+  "fields": {
+    "course": 15,
+    "code": "P00-25a",
+    "type": "C",
+    "lecturer": 2,
+    "start_time": "11:15:00",
+    "end_time": "13:00:00",
+    "day": 2,
+    "week_type": "N",
+    "place": "bud. C-7, sala 202"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 111,
+  "fields": {
+    "course": 15,
+    "code": "P00-25b",
+    "type": "C",
+    "lecturer": 2,
+    "start_time": "11:15:00",
+    "end_time": "13:00:00",
+    "day": 2,
+    "week_type": "P",
+    "place": "bud. C-7, sala 202"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 112,
+  "fields": {
+    "course": 15,
+    "code": "P00-25c",
+    "type": "C",
+    "lecturer": 2,
+    "start_time": "07:30:00",
+    "end_time": "09:00:00",
+    "day": 3,
+    "week_type": "N",
+    "place": "bud. C-7, sala 202"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 113,
+  "fields": {
+    "course": 15,
+    "code": "P00-25d",
+    "type": "C",
+    "lecturer": 2,
+    "start_time": "07:30:00",
+    "end_time": "09:00:00",
+    "day": 3,
+    "week_type": "P",
+    "place": "bud. C-7, sala 202"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 114,
+  "fields": {
+    "course": 15,
+    "code": "P00-26a",
+    "type": "L",
+    "lecturer": 2,
+    "start_time": "13:15:00",
+    "end_time": "15:00:00",
+    "day": 0,
+    "week_type": "N",
+    "place": "bud. D-1, sala 317.2"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 115,
+  "fields": {
+    "course": 15,
+    "code": "P00-26c",
+    "type": "L",
+    "lecturer": 2,
+    "start_time": "15:15:00",
+    "end_time": "16:55:00",
+    "day": 0,
+    "week_type": "N",
+    "place": "bud. D-1, sala 317.2"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 116,
+  "fields": {
+    "course": 15,
+    "code": "P00-26b",
+    "type": "L",
+    "lecturer": 2,
+    "start_time": "13:15:00",
+    "end_time": "15:00:00",
+    "day": 0,
+    "week_type": "P",
+    "place": "bud. D-1, sala 317.2"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 117,
+  "fields": {
+    "course": 15,
+    "code": "P00-26d",
+    "type": "L",
+    "lecturer": 2,
+    "start_time": "15:15:00",
+    "end_time": "16:55:00",
+    "day": 0,
+    "week_type": "P",
+    "place": "bud. D-1, sala 317.2"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 118,
+  "fields": {
+    "course": 15,
+    "code": "P00-26e",
+    "type": "L",
+    "lecturer": 29,
+    "start_time": "15:15:00",
+    "end_time": "16:55:00",
+    "day": 3,
+    "week_type": "N",
+    "place": "bud. D-1, sala 317.2"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 119,
+  "fields": {
+    "course": 15,
+    "code": "P00-26g",
+    "type": "L",
+    "lecturer": 29,
+    "start_time": "17:05:00",
+    "end_time": "18:45:00",
+    "day": 3,
+    "week_type": "N",
+    "place": "bud. D-1, sala 317.2"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 120,
+  "fields": {
+    "course": 15,
+    "code": "P00-26f",
+    "type": "L",
+    "lecturer": 29,
+    "start_time": "15:15:00",
+    "end_time": "16:55:00",
+    "day": 3,
+    "week_type": "P",
+    "place": "bud. D-1, sala 317.2"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 121,
+  "fields": {
+    "course": 15,
+    "code": "P00-26h",
+    "type": "L",
+    "lecturer": 29,
+    "start_time": "17:05:00",
+    "end_time": "18:45:00",
+    "day": 3,
+    "week_type": "P",
+    "place": "bud. D-1, sala 317.2"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 122,
+  "fields": {
+    "course": 15,
+    "code": "P00-27a",
+    "type": "W",
+    "lecturer": 2,
+    "start_time": "11:15:00",
+    "end_time": "13:00:00",
+    "day": 0,
+    "week_type": "PN",
+    "place": "bud. C-13, sala 1.30"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 123,
+  "fields": {
+    "course": 16,
+    "code": "P00-28a",
+    "type": "C",
+    "lecturer": 30,
+    "start_time": "17:05:00",
+    "end_time": "18:45:00",
+    "day": 1,
+    "week_type": "PN",
+    "place": "C-7, sala 303A"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 124,
+  "fields": {
+    "course": 16,
+    "code": "P00-28b",
+    "type": "C",
+    "lecturer": 30,
+    "start_time": "09:15:00",
+    "end_time": "11:00:00",
+    "day": 2,
+    "week_type": "PN",
+    "place": "C-7, sala 303A"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 125,
+  "fields": {
+    "course": 16,
+    "code": "P00-28c",
+    "type": "C",
+    "lecturer": 31,
+    "start_time": "09:15:00",
+    "end_time": "11:00:00",
+    "day": 3,
+    "week_type": "PN",
+    "place": "bud. C-7, sala 303A"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 126,
+  "fields": {
+    "course": 16,
+    "code": "P00-28d",
+    "type": "C",
+    "lecturer": 31,
+    "start_time": "13:15:00",
+    "end_time": "15:00:00",
+    "day": 3,
+    "week_type": "PN",
+    "place": "bud. C-7, sala 303A"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 127,
+  "fields": {
+    "course": 16,
+    "code": "P00-29a",
+    "type": "W",
+    "lecturer": 31,
+    "start_time": "08:15:00",
+    "end_time": "11:00:00",
+    "day": 4,
+    "week_type": "PN",
+    "place": "bud. C-13, sala 1.30"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 128,
+  "fields": {
+    "course": 17,
+    "code": "P00-30a",
+    "type": "C",
+    "lecturer": 32,
+    "start_time": "17:05:00",
+    "end_time": "18:45:00",
+    "day": 1,
+    "week_type": "PN",
+    "place": "bud. C-7, sala 202"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 129,
+  "fields": {
+    "course": 17,
+    "code": "P00-30b",
+    "type": "C",
+    "lecturer": 32,
+    "start_time": "09:15:00",
+    "end_time": "11:00:00",
+    "day": 2,
+    "week_type": "PN",
+    "place": "bud. C-7, sala 202"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 130,
+  "fields": {
+    "course": 17,
+    "code": "P00-30c",
+    "type": "C",
+    "lecturer": 32,
+    "start_time": "09:15:00",
+    "end_time": "11:00:00",
+    "day": 3,
+    "week_type": "PN",
+    "place": "bud. C-7, sala 202"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 131,
+  "fields": {
+    "course": 17,
+    "code": "P00-30d",
+    "type": "C",
+    "lecturer": 32,
+    "start_time": "13:15:00",
+    "end_time": "15:00:00",
+    "day": 3,
+    "week_type": "PN",
+    "place": "bud. C-7, sala 202"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 132,
+  "fields": {
+    "course": 17,
+    "code": "P00-31a",
+    "type": "W",
+    "lecturer": 27,
+    "start_time": "15:15:00",
+    "end_time": "16:55:00",
+    "day": 1,
+    "week_type": "PN",
+    "place": "C-13, sala 1.30"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 133,
+  "fields": {
+    "course": 17,
+    "code": "P00-31a",
+    "type": "W",
+    "lecturer": 27,
+    "start_time": "13:15:00",
+    "end_time": "15:00:00",
+    "day": 2,
+    "week_type": "PN",
+    "place": "C-13, sala 1.30"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 134,
+  "fields": {
+    "course": 18,
+    "code": "P00-32a",
+    "type": "C",
+    "lecturer": 33,
+    "start_time": "09:15:00",
+    "end_time": "12:00:00",
+    "day": 1,
+    "week_type": "PN",
+    "place": "bud. C-7, sala 202"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 135,
+  "fields": {
+    "course": 18,
+    "code": "P00-32b",
+    "type": "C",
+    "lecturer": 33,
+    "start_time": "12:15:00",
+    "end_time": "15:00:00",
+    "day": 1,
+    "week_type": "PN",
+    "place": "bud. C-7, sala 202"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 136,
+  "fields": {
+    "course": 18,
+    "code": "P00-32c",
+    "type": "C",
+    "lecturer": 34,
+    "start_time": "11:15:00",
+    "end_time": "14:00:00",
+    "day": 4,
+    "week_type": "PN",
+    "place": "bud. C-7, sala 202"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 137,
+  "fields": {
+    "course": 18,
+    "code": "P00-32d",
+    "type": "C",
+    "lecturer": 34,
+    "start_time": "14:15:00",
+    "end_time": "16:55:00",
+    "day": 4,
+    "week_type": "PN",
+    "place": "bud. C-7, sala 202"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 138,
+  "fields": {
+    "course": 18,
+    "code": "P00-33a",
+    "type": "W",
+    "lecturer": 33,
+    "start_time": "09:15:00",
+    "end_time": "11:00:00",
+    "day": 0,
+    "week_type": "PN",
+    "place": "bud. C-13, sala 1.30"
+  }
+},
+{
+  "model": "schedules.group",
+  "pk": 139,
+  "fields": {
+    "course": 18,
+    "code": "P00-33a",
+    "type": "W",
+    "lecturer": 33,
+    "start_time": "11:15:00",
+    "end_time": "13:00:00",
+    "day": 3,
+    "week_type": "PN",
+    "place": "bud. C-13, sala 1.30"
+  }
+}
+]

@@ -1,0 +1,169 @@
+ol {
+  list-style: none;
+}
+
+.timetable {
+  display: flex;
+  background: #eee;
+  color: #444;
+  border-radius: .25rem;
+  margin: 2% 0;
+}
+
+.nowMarker {
+  position: absolute;
+  border-bottom: 2px solid #ff7f6e;
+  z-index: 100;
+  width: 100%;
+  top: -2px;
+  transition: top 2s ease-in-out;
+}
+
+.timings {
+  margin: 1em 0 0 0;
+  padding: 0 3px 0 0;
+  width: 3em;
+  height: 68em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.week {
+  margin: 0;
+  display: -webkit-flex;
+  display: flex;
+  overflow-x: auto;
+  padding: 0;
+  width: 100%;
+}
+
+.day {
+  position: relative;
+  border-bottom: 1px solid #ddd;
+  padding: 0;
+  min-width: calc(100.5% / 3);
+  transition: min-width 0.2s ease-in-out;
+}
+
+.name {
+  display: block;
+  height: 2em;
+  line-height: 2em;
+  text-align: center;
+}
+
+.hour {
+  position: absolute;
+  height: 4%;
+  padding: 5px;
+  width: 100%;
+  color: white;
+  font-size: 0.6rem;
+  border-radius: .25rem;
+  background: #0275d8;
+  p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.2em;
+  }
+  hr {
+    margin: 1% 0;
+  }
+}
+
+.hour_p {
+  width: 50%;
+}
+
+.hour_n {
+  width: 50%;
+  left: 50%;
+}
+
+.group_time {
+  clear: right;
+  display: block;
+}
+
+@for $i from 0 through ceil(785/5) {
+  .hour_start__#{$i*5} {
+    top: 4% + ($i * 5 * 0.1222%)
+  }
+}
+@for $i from 0 through ceil(755/5) {
+  .hour_width__#{$i*5} {
+    height: ($i * 5 * 0.1222%)
+  }
+}
+
+.class1 {
+  background: #3498db;
+}
+
+.class2 {
+  background: #27ae60;
+}
+
+.class3 {
+  background: #e74c3c;
+}
+
+.class4 {
+  background: #e67e22;
+}
+
+.class5 {
+  background: #1abc9c;
+}
+
+@media (min-width: 768px) {
+  .timetable {
+    flex-direction: column;
+  }
+  .timings {
+    margin: 0;
+    padding: 0 0 3px 3%;
+    width: 96%;
+    height: 3em;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .name {
+    width: 4%;
+    line-height: 8em;
+    height: 8em;
+  }
+  .week {
+    flex-direction: column;
+  }
+  .hour {
+    top: 0;
+    height: 100%;
+  }
+
+  .hour_p {
+    height: 50%;
+  }
+
+  .hour_n {
+    top: 50%;
+    height: 50%;
+  }
+
+  .group_time {
+    float: right;
+  }
+
+  @for $i from 0 through 785 {
+    .hour_start__#{$i} {
+      left: 4% + ($i * 0.1222%)
+    }
+  }
+  @for $i from 0 through 755 {
+    .hour_width__#{$i} {
+      width: ($i * 0.1222%)
+    }
+  }
+}

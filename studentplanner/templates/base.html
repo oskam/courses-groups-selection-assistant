@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="pl" xml:lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Planer Zajęć PWr</title>
+
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+          integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+          crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+          integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+          crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+          integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+          crossorigin="anonymous"></script>
+{#  <script src="{% static 'externals/bootstrap.min.js' %}" type="text/javascript"></script>#}
+{#  <script src="{% static 'externals/jquery-3.1.1.slim.min.js' %}" type="text/javascript"></script>#}
+{#  <script src="{% static 'externals/tether.min.js' %}" type="text/javascript"></script>#}
+  <script src="{% static 'studentplanner/js/master.js' %}" type="text/javascript"></script>
+  {% block script %}
+  {% endblock %}
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+        integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+{#  <link rel="stylesheet" href="{% static 'externals/bootstrap.min.css' %}"#}
+  <link rel="stylesheet" href="{% static 'studentplanner/css/master.css' %}">
+  {% block stylesheet %}
+  {% endblock %}
+</head>
+
+<body>
+<nav class="navbar navbar-toggleable-md sticky-top navbar-light navbar-my">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  {% with url_name=request.resolver_match.url_name %}
+    <a class="navbar-brand{% if url_name == 'home' %} active{% endif %}" href="{% url 'home' %}">Planer Zajęć</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="nav navbar-nav mr-auto">
+        {% if user.is_authenticated %}
+          <li class="nav-item">
+            <a class="nav-link{% if url_name == 'students:student_view' %} active{% endif %}"
+               href="{% url 'students:student_view' %}">Konfiguracja</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link{% if url_name == 'generator:form_view' %} active{% endif %}"
+               href="{% url 'generator:form_view' %}">Generuj plan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link{% if url_name == 'students:timetables_list' %} active{% endif %}"
+               href="{% url 'students:timetables_list' %}">Moje plany</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link{% if url_name == 'accounts:logout' %} active{% endif %}" href="{% url 'logout' %}">Wyloguj</a>
+          </li>
+        {% else %}
+          <li class="nav-item">
+            <a class="nav-link{% if url_name == 'accounts:login' %} active{% endif %}"
+               href="{% url 'accounts:login' %}">Zaloguj się</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link{% if url_name == 'signup' %} active{% endif %}"
+               href="{% url 'accounts:signup' %}">Zarejestruj się</a>
+          </li>
+        {% endif %}
+      </ul>
+    </div>
+  {% endwith %}
+</nav>
+
+<div class="container mycontent">
+  {% if messages %}
+  <div class="messages">
+      {% for message in messages %}
+      <div{% if message.tags %} class="alert alert-{{ message.tags }}"{% endif %}>{{ message }}</div>
+      {% endfor %}
+  </div>
+  {% endif %}
+  {% block content %}
+  {% endblock %}
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+.crossed-out {
+  color: #aaa;
+  cursor: not-allowed;
+}
+
+@media (min-width: 992px) {
+  .form-group {
+    width: 50%;
+    float: left;
+  }
+
+  .form-group:last-child {
+    width: 100%;
+  }
+}
