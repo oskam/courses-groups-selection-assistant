@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,YAAa;EACX,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,WAAW;;AAGrB,yBAA0B;EACxB,WAAY;IACV,KAAK,EAAE,GAAG;IACV,KAAK,EAAE,IAAI;;EAGb,sBAAuB;IACrB,KAAK,EAAE,IAAI",
-"sources": ["form_step_lecturers.scss"],
-"names": [],
-"file": "form_step_lecturers.css"
-}
